@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#up{
+    position: absolute;
+    z-index: 3;
+}
+
+#gift1{
+    position: relative;
+left: 150px;
+top: 200px;
+z-index: 2;
+}
+#gift2{
+    position: relative;
+left: 550px;
+top: 200px;  
+z-index: 2;
+
+}
+#gift3{
+    position: relative;
+    left: 800px;
+    top: 200px;
+    z-index: 2;
+}
+
+
+#title1{
+    width: 30px;
+    position: relative;
+    left: 20px;
+}
+
+#title2{
+    width: 30px;
+    position: relative;
+    left: 360px;
+}
+
+#title3{
+    width: 30px;
+    position: relative;
+    left: 820px;
+    bottom: 60px;
+}
+
+/* #gift1:hover{
+    background-image: url(./gift1.jpeg);
+
+}
+
+#gift2:hover{
+    background-image: url(./gift2.jpeg);
+
+}
+
+#gift3:hover{
+    background-image: url(./gift3.jpeg);
+
+} */

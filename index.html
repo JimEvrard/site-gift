@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<img id="up" src="./assets/img/up.png" alt="">
+
+
+<img id="gift1" style="width: 200px" src="./assets/img/Group 8.png" onclick='changeImage("./assets/img/gift4.png");'>
+<img id="gift2" style="width: 200px" src="./assets/img/Group 10.png" onclick='changeImageb("./assets/img/gift5.png");'>
+<img id="gift3" style="width: 200px" src="./assets/img/Group 11.png" onclick='changeImagec("./assets/img/gift6.png");'>
+
+<img id='title1' src="assets/img/JOYEUX.png" alt="">
+<img id='title2' src="assets/img/NOËL.png" alt="">
+<img id='title3' src="assets/img/LANA.png" alt="">
+
+
+<script type="text/javascript">
+    function changeImage(a) {
+        document.getElementById("gift1").src = a;
+    }
+    function changeImageb(b) {
+        document.getElementById("gift2").src = b;
+    }
+    function changeImagec(c) {
+        document.getElementById("gift3").src = c;
+    }
+    </script>
+</body>
+
+</html>
